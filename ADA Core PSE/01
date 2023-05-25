@@ -13,3 +13,8 @@ List three or more questions whose answers would clarify the problem statement. 
     - an error message should occur
 
 Use the comments provided to write at least two example input/outputs.
+1. Consider at least one nominal and one edge case.
+    a. nominal test1: 3 different restaurant name with 3 different ratings
+    b. nominal test2: different restaurant with same highest ratings
+    c. edge case test1: a restaurant that has a blank rating
+    d. edge case test2: a rating that is not a numeric value
