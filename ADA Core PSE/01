@@ -20,3 +20,7 @@ Use the comments provided to write at least two example input/outputs.
     d. edge case test2: a rating that is not a numeric value
     
 2. What is the expected output for the given input?
+    a. nominal test1: the dict key value pair that has the highest rating from the list of elements
+    b. nominal test2: all the dict key value pair that has the highest rating from the list of elements
+    c. edge case test1: a “Rating Not Available” string
+    d. edge case test2: exception (TypeError), rating should be a numeric value but it is a string
