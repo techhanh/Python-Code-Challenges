@@ -6,10 +6,10 @@
 List three or more questions whose answers would clarify the problem statement. For each question, provide an answer which includes the effect your decision would have on how you would approach the problem.
 
 1. What happens if there are multiple restaurants with the same highest rating?
-    1. all restaurants with the same highest rating should be outputted
-    
+    - all restaurants with the same highest rating should be outputted
 2. What happens if there is no rating available yet for this restaurant (edge case test)?
-    1. It should output a string as “Rating Not Available”
-    
+    - It should output a string as “Rating Not Available”
 3. What happens if a rating is a string instead of a numeric value?
-    1. an error message should occur
+    - an error message should occur
+
+Use the comments provided to write at least two example input/outputs.
