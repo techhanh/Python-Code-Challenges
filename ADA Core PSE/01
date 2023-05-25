@@ -18,3 +18,5 @@ Use the comments provided to write at least two example input/outputs.
     b. nominal test2: different restaurant with same highest ratings
     c. edge case test1: a restaurant that has a blank rating
     d. edge case test2: a rating that is not a numeric value
+    
+2. What is the expected output for the given input?
