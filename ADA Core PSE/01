@@ -68,3 +68,23 @@ def get_highest_rated(restaurants):
       highest_rated_restaurant.append(restaurant)
 
   return highest_rated_restaurant
+
+print(get_highest_rated([
+    {"name": "Thai's Kitchen", "rating": 3.5}, 
+    {"name": "Olive Garden", "rating": 2},
+    {"name": "America's Best Pizza", "rating": 5},
+  ]))
+
+print(get_highest_rated([
+    {"name": "Soul Comfort", "rating": 5}, 
+    {"name": "Burger Joint", "rating": 2.5},
+    {"name": "Sushi Fish", "rating": 5},
+  ]))
+
+print(get_highest_rated([
+    {"name": "Mediterranean's Grill", "rating": None}, 
+  ]))
+
+# print(get_highest_rated([
+#     {"name": "Chinese Bamboo", "rating": "four"}, 
+#   ]))
