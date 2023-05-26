@@ -35,4 +35,17 @@ Use the comments provided to write at least two example input/outputs.
 
 
 **Challenge 2: Writing Pseudocodes**
- Without writing code, describe how you would implement `get_highest_rating` in enough detail that someone else could write the code.
+Without writing code, describe how you would implement `get_highest_rating` in enough detail that someone else could write the code.
+
+# define the function get_highest_rated with the restaurants as the parameter
+# create a variable with the name highest_rated_restaurant and assign it as an empty list
+# create a variable with the name highest_rating and assign it with a count (rating) of 0
+# use a for loop to go through each of the element in the argument list
+# if the restaurant's rating is None
+# then print a statement of "Rating Not Available"
+# else if the restaurant's rating from the argument list is higher than of the value from the highest_rating variable, then replace the value is in the highest_rating value with the rating from the argument list
+# and replace the value that is in the highest_rated_restaurant with the high_rated restaurant with the restaurant name from the argument list
+# else if the restaurant's rating from the argument list is the same as the value from the highest_rating variable
+# then add the restaurant name from the argument list to the highest_rated_restaruant list as well
+# return the highest_rated_restaurant variable
+# call the function with all of the test arguments
