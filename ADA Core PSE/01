@@ -33,6 +33,47 @@ Use the comments provided to write at least two example input/outputs.
     c. def test_rating_None_returns_Rating_not_Available()
     d. def test_returns_TypeError_msg_not_supported_between_instances_of_str_and_int()
 
+Full Test Codes:
+
+# example input1 (nominal test1):
+# restaurants1 = [
+#     {"name": "Thai's Kitchen", "rating": 3.5}, 
+#     {"name": "Olive Garden", "rating": 2},
+#     {"name": "America's Best Pizza", "rating": 5},
+# ]
+
+# expected output1 (nominal test1):
+#  {"name": "America's Best Pizza", "rating": 5}
+
+
+# example input2 (nominal test2):
+# restaurants2 = [
+#     {"name": "Soul Comfort", "rating": 5}, 
+#     {"name": "Burger Joint", "rating": 2.5},
+#     {"name": "Sushi Fish", "rating": 5},
+# ]
+
+# expected output2 (nominal test2):
+#  {"name": "Sushi Fish", "rating": 5},
+#  {"name": "Soul Comfort", "rating": 5}, 
+
+
+# example input3 (edge case test1):
+# restaurants3 = [
+#     {"name": "Mediterranean's Grill, "rating": None"}, 
+# ]
+
+# expected output3 (edge case test1):
+# Rating Not Available
+
+
+# example input4 (edge case test2):
+# restaurants4 = [
+#     {"name": Chinese Bamboo, "rating": "four"}, 
+# ]
+
+# expected output4 (edge case test2):
+# TypeError: not supported between instances of str and int()
 
 ***Challenge 2: Writing Pseudocodes***
 Without writing code, describe how you would implement `get_highest_rating` in enough detail that someone else could write the code.
