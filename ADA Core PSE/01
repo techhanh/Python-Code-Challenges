@@ -2,6 +2,7 @@
 - Create a function named get_highest_rated that is responsible for finding the highest rated restaurant (from a list of restaurants with its rating)
 - This function should take in a list of dictionaries named restaurants as a parameter. Each dictionary represents the data associated with a restaurant, including its rating. This function should have a return value of the restaurant with the highest rating.
 
+
 **Prompts**
 List three or more questions whose answers would clarify the problem statement. For each question, provide an answer which includes the effect your decision would have on how you would approach the problem.
 1. What happens if there are multiple restaurants with the same highest rating?
@@ -10,6 +11,7 @@ List three or more questions whose answers would clarify the problem statement. 
     - It should output a string as “Rating Not Available”
 3. What happens if a rating is a string instead of a numeric value?
     - an error message should occur
+
 
 ***Challenge 1: Writing Tests Codes***
 Use the comments provided to write at least two example input/outputs.
@@ -30,3 +32,7 @@ Use the comments provided to write at least two example input/outputs.
     b. def test_returns_all_highest_rated_from_list()
     c. def test_rating_None_returns_Rating_not_Available()
     d. def test_returns_TypeError_msg_not_supported_between_instances_of_str_and_int()
+
+
+**Challenge 2: Writing Pseudocodes**
+ Without writing code, describe how you would implement `get_highest_rating` in enough detail that someone else could write the code.
