@@ -14,3 +14,10 @@ F, H, V, W, Y	                    4
 K	                                5
 J, X	                            8
 Q, Z	                            10
+
+Example:
+Input	    Expected Output
+"DOG"	    5
+"CAT"	    5
+"CABBAGE"	14
+"QUARTZ"	24
