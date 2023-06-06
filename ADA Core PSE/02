@@ -1,0 +1,6 @@
+**Problem Statement**
+
+Imagine programming the logic for a word game. In this game, every player submits one word. Each word gets a score based on the letters in the word and its point value.
+- Create a function named score that is responsible for scoring a given word.
+- This function should take in a string named word as a parameter.
+- This function should return the word’s total number of points
