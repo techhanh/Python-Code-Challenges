@@ -32,3 +32,11 @@ List three or more questions whose answers would clarify the problem statement. 
     
 2. What if there is an invalid input (something else other than an alphabetical character like a number or symbol?)
     -invalid character returns TypeError (should be alphabetic characters only)
+
+3. What happens if one or more of the character is lowercase?
+    -use the .upper() method so the return value would not be affected
+    
+4. What happens if there are multiple words in a string ?
+    -use the .replace(” “, “”) method so the return value would not be affected
+        
+        (the method removes all the empty spaces in a string)
