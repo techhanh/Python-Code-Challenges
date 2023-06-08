@@ -56,5 +56,16 @@ List three or more questions whose answers would clarify the problem statement. 
         iii. “” = 0
         iv. ["one", "two"] = TypeError
         
-        (??? the list return output is expected to be a TypeError but returns 0?)
 2. Write unit tests for score for the nominal and edge cases you identified in the first step.
+    a. nominal: 
+        i. def test_returns_29_for_string_JAZZ():
+        - (test upper case)
+        ii. def test_returns_5_for_string_dog():
+        - (test lower case)
+        - (will convert the lower case to upper case)
+        iii. def test_returns_18_for_string_mouse_cheese():
+        - (test for multiple words in a string)
+        - (will remove all the spaces in a string)
+        iv. def test_returns_10_for_string_symbol_number_key!5():     
+        - (test for strings that contain alphabetical characters, symbols, and numeric value)
+        - (will ignore everything else in the string except for the alphabetical characters)
