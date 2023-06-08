@@ -40,3 +40,9 @@ List three or more questions whose answers would clarify the problem statement. 
     -use the .replace(” “, “”) method so the return value would not be affected
         
         (the method removes all the empty spaces in a string)
+
+
+**Challenge 1: Writing Test**
+
+1. Use the comments provided to write at least two example inputs/outputs?
+2. Write unit tests for score for the nominal and edge cases you identified in the first step.
