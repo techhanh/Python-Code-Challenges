@@ -45,4 +45,16 @@ List three or more questions whose answers would clarify the problem statement. 
 **Challenge 1: Writing Test**
 
 1. Use the comments provided to write at least two example inputs/outputs?
+    a. nominal: 
+        i. “JAZZ” = 29
+        ii. “dog” = 5
+        iii. “mouse cheese” = 18
+        iv. “key!5” = 10
+    b. edge:
+        i. 5 = TypeError
+        ii. @ = SyntaxError
+        iii. “” = 0
+        iv. ["one", "two"] = TypeError
+        
+        (??? the list return output is expected to be a TypeError but returns 0?)
 2. Write unit tests for score for the nominal and edge cases you identified in the first step.
