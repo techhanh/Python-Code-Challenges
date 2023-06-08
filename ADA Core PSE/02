@@ -69,3 +69,14 @@ List three or more questions whose answers would clarify the problem statement. 
         iv. def test_returns_10_for_string_symbol_number_key!5():     
         - (test for strings that contain alphabetical characters, symbols, and numeric value)
         - (will ignore everything else in the string except for the alphabetical characters)
+    b. edge:
+        i. def test_returns_TypeError_msg_int_object_is_not_iterable_for_number_5():
+        - (test for numeric data type)
+        - TypeError: 'int' object is not iterable
+        ii. def test_returns_SyntaxError_msg_invalid_syntax_for_symbol_input():
+        - (test for a symbol data type)
+        - SyntaxError: invalid syntax
+        iii. def test_returns_0_for_empty_string():
+        - (test for an empty string)
+        iv. def test_returns_TypeError_for_list():
+        - test for a list of values/elements
