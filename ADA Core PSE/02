@@ -91,3 +91,14 @@ def test_returns_29_for_string_JAZZ():
 
   # assert
   assert total_scores == 29
+
+# NOMINAL TEST 2
+def test_returns_5_for_string_dog():
+  # arrange
+  word = "dog"
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == 5
