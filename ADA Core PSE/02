@@ -80,3 +80,14 @@ List three or more questions whose answers would clarify the problem statement. 
         - (test for an empty string)
         iv. def test_returns_TypeError_for_list():
         - test for a list of values/elements
+
+# NOMINAL TEST 1
+def test_returns_29_for_string_JAZZ():
+  # arrange
+  word = "JAZZ"
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == 29
