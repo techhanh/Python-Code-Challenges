@@ -113,3 +113,14 @@ def test_returns_18_for_string_mouse_cheese():
 
   # assert
   assert total_scores == 18
+
+# NOMINAL TEST 4
+def test_returns_10_for_string_symbol_number_key!5():   
+  # arrange
+  word = "key!5"
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == 10
