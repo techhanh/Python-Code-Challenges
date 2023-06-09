@@ -102,3 +102,14 @@ def test_returns_5_for_string_dog():
 
   # assert
   assert total_scores == 5
+
+# NOMINAL TEST 3
+def test_returns_18_for_string_mouse_cheese():
+  # arrange
+  word = "mouse cheese"
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == 18
