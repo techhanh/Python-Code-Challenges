@@ -157,3 +157,14 @@ def test_returns_0_for_empty_string():
 
   # assert
   assert total_scores = 0
+
+# EDGE TEST 4
+def test_returns_TypeError_for_list():
+  # arrange
+  word = ["one", "two"]
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == TypeError: 'list' object is not iterable
