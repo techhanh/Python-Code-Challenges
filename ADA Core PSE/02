@@ -124,3 +124,14 @@ def test_returns_10_for_string_symbol_number_key!5():
 
   # assert
   assert total_scores == 10
+
+# EDGE TEST 1
+def test_returns_TypeError_msg_int_object_is_not_iterable_for_number_5():
+  # arrange
+  word = 5
+
+  # act
+  total_scores = score(word)
+
+  # assert
+  assert total_scores == TypeError: 'int' object is not iterable
