@@ -135,3 +135,14 @@ def test_returns_TypeError_msg_int_object_is_not_iterable_for_number_5():
 
   # assert
   assert total_scores == TypeError: 'int' object is not iterable
+
+# EDGE TEST 2
+def test_returns_SyntaxError_msg_invalid_syntax_for_symbol_input():
+  # arrange
+  word = @
+
+  # act
+  total_scores = score(word)
+
+  # assert
+   assert total_points == SyntaxError: invalid syntax
