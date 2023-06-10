@@ -146,3 +146,14 @@ def test_returns_SyntaxError_msg_invalid_syntax_for_symbol_input():
 
   # assert
    assert total_points == SyntaxError: invalid syntax
+   
+# EDGE TEST 3
+def test_returns_0_for_empty_string():
+  # arrange
+  word = ""
+  
+  # act
+  total_points = score(word)
+
+  # assert
+  assert total_scores = 0
