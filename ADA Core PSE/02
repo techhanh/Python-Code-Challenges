@@ -172,3 +172,13 @@ def test_returns_TypeError_for_list():
 
 Challenge 2: Writing Pseudocodes
 Without writing code, describe how you would implement score in enough detail that someone else could write the code.
+
+# psuedocode
+# define a function name and its parameter (word)
+# create a variable that will be a dict of for each alphabetic character and its assigned value score
+# create a counter variable (total_scores) and start the count at 0
+# create a for loop to go through each of the iterated value (character) in the parameter (word)
+# use an if statement to check if the iterated value with the upper method (character.upper()) is in the dict variable (alphabet_to_score) (the upper method ignores all case sensitive characters)
+# (if it is) use the counter variable (total_scores) to add the odd score to the new score by accessing the dict's iterating value with the upper method (character.upper()) in the dict's variable (alphabet_to_score)
+# return the score counter variable (total_scores)
+# call the function with all the nominal and edge tests
