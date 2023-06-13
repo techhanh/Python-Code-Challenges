@@ -168,3 +168,7 @@ def test_returns_TypeError_for_list():
 
   # assert
   assert total_scores == TypeError: 'list' object is not iterable
+
+
+Challenge 2: Writing Pseudocodes
+Without writing code, describe how you would implement score in enough detail that someone else could write the code.
