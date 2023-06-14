@@ -182,3 +182,18 @@ Without writing code, describe how you would implement score in enough detail 
 # (if it is) use the counter variable (total_scores) to add the odd score to the new score by accessing the dict's iterating value with the upper method (character.upper()) in the dict's variable (alphabet_to_score)
 # return the score counter variable (total_scores)
 # call the function with all the nominal and edge tests
+
+
+COMPLETE CODE CHALLENGE:
+
+def get_total_scores(word):
+  alphabet_to_score = {
+      "A": 1, "B": 3, "C": 3, "D": 2, "E": 1, "F": 4, "G": 2, "H": 4, "I": 1, "J": 8, "K": 5, "L": 1, "M": 3, "N": 1, "O": 1, "P": 3, "Q": 10, "R": 1, "S": 1, "T": 1, "U": 1, "V": 4, "W": 4, "X": 8, "Y": 4, "Z": 10,
+  }
+  total_scores = 0
+
+  for character in word:
+    if character.upper() in alphabet_to_score:
+      total_scores += alphabet_to_score[character.upper()]
+
+  return total_scores
