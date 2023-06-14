@@ -197,3 +197,9 @@ def get_total_scores(word):
       total_scores += alphabet_to_score[character.upper()]
 
   return total_scores
+
+# NOMINAL CASES
+print(get_total_scores("JAZZ")) # 29
+print(get_total_scores("dog")) # 5
+print(get_total_scores("mouse cheese")) # 18
+print(get_total_scores("key!5")) # 10
