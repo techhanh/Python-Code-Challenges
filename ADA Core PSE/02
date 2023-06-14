@@ -203,3 +203,9 @@ print(get_total_scores("JAZZ")) # 29
 print(get_total_scores("dog")) # 5
 print(get_total_scores("mouse cheese")) # 18
 print(get_total_scores("key!5")) # 10
+
+# EDGE CASES
+# print(get_total_scores(5)) # TypeError: 'int' object is not iterable
+# print(get_total_scores(@)) # SyntaxError: invalid syntax
+# print(get_total_scores("")) # 0
+# print(get_total_scores(["one", "two"])) # 0
